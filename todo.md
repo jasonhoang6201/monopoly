@@ -4,7 +4,7 @@
 
 - [ ] Initialize React + TypeScript project with Vite
 - [ ] Set up project structure and folders
-- [ ] Install dependencies (React, TypeScript, tailwind, framer motion, zustand)
+- [ ] Install dependencies (React, TypeScript, tailwind, framer motion, zustand )
 - [ ] Create basic App component
 - [ ] Set up TypeScript types and interfaces
 
@@ -76,7 +76,7 @@
 
 ## Development Priority for Local Play
 
-1. **Vietnamese Board Setup**: Create 40-square board with Vietnamese city names
+1. **Vietnamese Board Setup**: Create 40-square board with Vietnamese property names
 2. **Core Game Loop**: Roll dice → Move → Take action → End turn (with doubles)
 3. **Essential Mechanics**: Buy properties, pay rent, manage money ($2,000 start)
 4. **Property System**: Color groups, monopolies, rent calculations
@@ -106,21 +106,3 @@
 - [ ] Vietnamese card backgrounds (Chance = Cơ Hội, Community Chest = Khí Vận)
 - [ ] Vietnamese UI icons and buttons
 - [ ] Color group indicators (Brown, Light Blue, Pink, Orange, Red, Yellow, Green, Dark Blue)
-
-## Estimated Timeline
-
-- **Phase 1-2**: 1-2 days (setup and data)
-- **Phase 3-4**: 3-4 days (basic UI and mechanics)
-- **Phase 5**: 2-3 days (advanced features)
-- **Phase 6**: 1-2 days (local multiplayer)
-- **Phase 7-8**: 2-3 days (polish and testing)
-- **Total**: ~2 weeks for full implementation
-
-## Quick Start Commands
-
-```bash
-npm create vite@latest monopoly-local -- --template react-ts
-cd monopoly-local
-npm install
-npm run dev
-```
